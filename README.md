@@ -1,5 +1,5 @@
 <div align="center" >
-  <img width="50%" src="image/demo.gif" />
+  <img width="30%" src="image/demo.gif" />
 </div>
 
 # UIOverlayView
