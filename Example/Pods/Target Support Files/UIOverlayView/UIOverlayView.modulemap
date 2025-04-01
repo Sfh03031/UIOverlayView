@@ -1,0 +1,6 @@
+framework module UIOverlayView {
+  umbrella header "UIOverlayView-umbrella.h"
+
+  export *
+  module * { export * }
+}
