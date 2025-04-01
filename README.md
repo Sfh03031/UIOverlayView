@@ -1,5 +1,5 @@
 <div align="center" >
-  <img width="85%" src="image/demo.gif" />
+  <img width="50%" src="image/demo.gif" />
 </div>
 
 # UIOverlayView
@@ -48,10 +48,10 @@ Second, use class methods of UIOverlayView where you needed to show or hide
 
 ```swift
 
-#show overlay
+# show overlay
 UIOverlayView.show()
 
-#hide overlay
+# hide overlay
 UIOverlayView.hide()
 
 ```
@@ -120,7 +120,7 @@ public extension UIOverlayView {
 
 ```
 
-The superView of UIOverlayView defaults to keyWindow, but you can also customize it.
+The superView of UIOverlayView defaults to `keyWindow`, but you can also customize it.
 
 ```swift
 
@@ -160,7 +160,7 @@ public extension UIOverlayView {
 
 ## Author
 
-Sfh03031, sfhery@foxmail.com
+Sfh03031, sfh894645252@163.com
 
 ## License
 
