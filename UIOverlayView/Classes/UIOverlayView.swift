@@ -7,7 +7,7 @@
 
 import UIKit
 
-/// 渲染模式枚举
+/// enum of BlendModes
 public enum UIOverlayViewBlendMode: String, CaseIterable {
     case normalBlendMode     = "normalBlendMode"
     case darkenBlendMode     = "darkenBlendMode"
@@ -45,7 +45,7 @@ public final class UIOverlayView: UIView {
         self.layer.compositingFilter = "saturationBlendMode"
     }
     
-    /// 表示该View不接受、不拦截任何触摸事件
+    /// Self does not accept or intercept any touch events
     public override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         return nil
     }
@@ -54,7 +54,6 @@ public final class UIOverlayView: UIView {
 
 // MARK: show and hide
 public extension UIOverlayView {
-    
     
     /// set compositingFilter of layer
     /// - Parameter blendMode: case of UIOverlayViewBlendMode
@@ -79,7 +78,6 @@ public extension UIOverlayView {
         container.addSubview(self)
     }
     
-    
     /// remove overlay
     func remove() {
         self.removeFromSuperview()
@@ -87,7 +85,6 @@ public extension UIOverlayView {
 }
 
 public extension UIOverlayView {
-    
     
     /// show overlay
     /// - Parameters:

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIOverlayView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'UIOverlayView is a subclass of UIView used to achieve application gray screen effect.（UIOverlayView是一个UIView的子类，用以实现应用灰屏效果。）'
 
 # This description is used to generate tags and improve search results.

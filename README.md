@@ -155,6 +155,9 @@ public extension UIOverlayView {
 
 ## Change log
 
+2025.04.8, 0.1.2
+- Update comments and readme(zh: 更新注释和readme)
+
 2025.04.1, 0.1.1
 - Initial version(zh: 初始版本)
 
