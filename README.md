@@ -76,7 +76,7 @@ public enum UIOverlayViewBlendMode: String, CaseIterable {
     case differenceBlendMode = "differenceBlendMode"
     case exclusionBlendMode  = "exclusionBlendMode"
     case hueBlendMode        = "hueBlendMode"
-    case saturationBlendMode = "saturationBlendMode"
+    case saturationBlendMode = "saturationBlendMode" // default
     case colorBlendMode      = "colorBlendMode"
     case luminosityBlendMode = "luminosityBlendMode"
 }
@@ -153,10 +153,15 @@ public extension UIOverlayView {
 
 ```
 
+if you find any issue, please start a PR.
+
 ## Change log
 
+2025.04.23, 0.1.3
+- Add new demo.gif and methods(zh: 添加新的类方法和示例gif)
+
 2025.04.8, 0.1.2
-- Update comments and readme(zh: 更新注释和readme)
+- Add enum of BlendModes and update readme(zh: 增加渲染模式枚举，更新readme)
 
 2025.04.1, 0.1.1
 - Initial version(zh: 初始版本)

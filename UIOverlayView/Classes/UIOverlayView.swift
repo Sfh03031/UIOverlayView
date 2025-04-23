@@ -5,6 +5,8 @@
 //  Created by sfh on 2025/3/31.
 //
 
+#if canImport(UIKit)
+
 import UIKit
 
 /// enum of BlendModes
@@ -22,7 +24,7 @@ public enum UIOverlayViewBlendMode: String, CaseIterable {
     case differenceBlendMode = "differenceBlendMode"
     case exclusionBlendMode  = "exclusionBlendMode"
     case hueBlendMode        = "hueBlendMode"
-    case saturationBlendMode = "saturationBlendMode"
+    case saturationBlendMode = "saturationBlendMode" // default
     case colorBlendMode      = "colorBlendMode"
     case luminosityBlendMode = "luminosityBlendMode"
 }
@@ -42,7 +44,7 @@ public final class UIOverlayView: UIView {
     private func setOverlay() {
         self.translatesAutoresizingMaskIntoConstraints = false
         self.backgroundColor = .lightGray
-        self.layer.compositingFilter = "saturationBlendMode"
+        self.layer.compositingFilter = UIOverlayViewBlendMode.saturationBlendMode.rawValue
     }
     
     /// Self does not accept or intercept any touch events
@@ -110,3 +112,5 @@ public extension UIOverlayView {
         }
     }
 }
+
+#endif

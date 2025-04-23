@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - UIOverlayView (0.1.0)
+  - UIOverlayView (0.1.2)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  UIOverlayView: 768eb11019dd2649b2b5ba32bf6eee0eadd30647
+  UIOverlayView: 0a1dadd3d96928e5f8b8de02041121c15b9d73c7
 
 PODFILE CHECKSUM: d2e93a31061c32f35ec1889e0e93b7f1d1d55340
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.16.2

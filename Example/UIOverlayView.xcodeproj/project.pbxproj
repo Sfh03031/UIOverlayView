@@ -48,7 +48,7 @@
 		865B7743BD70001F2E3BBB3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A831B0A62A17213FD4659298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE5FF2132D9B7C8B008123E5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		C2A2DEE015FA024DCDEFD907 /* UIOverlayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIOverlayView.podspec; path = ../UIOverlayView.podspec; sourceTree = "<group>"; };
+		C2A2DEE015FA024DCDEFD907 /* UIOverlayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UIOverlayView.podspec; path = ../UIOverlayView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
